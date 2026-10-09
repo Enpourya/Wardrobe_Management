@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Using system sans-serif fonts as Inter fallback -->
+    <!-- Replace with actual Inter .ttf files in /font/ for best results -->
+    <string name="font_regular">sans-serif</string>
+    <string name="font_semibold">sans-serif-medium</string>
+    <string name="font_bold">sans-serif-black</string>
+</resources>

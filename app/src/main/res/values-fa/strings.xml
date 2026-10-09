@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مدیریت کمد</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">خانه</string>
+    <string name="nav_search">جستجو</string>
+    <string name="nav_ai">استایل هوشمند</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- Storage screen -->
+    <string name="label_my_storages">کمد‌ها و کشوهای من</string>
+    <string name="empty_storages">هنوز کمدی ندارید.\nروی + ضربه بزنید تا اولین کمد یا کشو را اضافه کنید.</string>
+    <string name="action_add_storage">+ افزودن کمد</string>
+
+    <!-- Item screen -->
+    <string name="empty_items">هنوز آیتمی نیست.\nروی + ضربه بزنید تا لباس یا وسایل اضافه کنید.</string>
+    <string name="action_add_item">+ افزودن آیتم</string>
+
+    <!-- Dialog hints -->
+    <string name="hint_storage_name">نام کمد (مثل: کمد اتاق خواب)</string>
+    <string name="hint_item_name">نام آیتم (مثل: کت جین آبی)</string>
+    <string name="hint_notes">یادداشت (اختیاری)</string>
+    <string name="label_type">نوع</string>
+    <string name="label_color">رنگ</string>
+
+    <!-- Image -->
+    <string name="action_gallery">📷 گالری</string>
+    <string name="action_camera">📸 دوربین</string>
+
+    <!-- Search -->
+    <string name="hint_search">جستجو در آیتم‌ها…</string>
+    <string name="search_hint">نام یک وسیله یا لباس را وارد کنید\nتا بدانید در کدام کمد است</string>
+    <string name="no_results">آیتمی پیدا نشد.\nکلمه دیگری امتحان کنید.</string>
+
+    <!-- AI -->
+    <string name="title_ai">پیشنهاد لباس هوشمند</string>
+    <string name="subtitle_ai">مراسم خود را بگویید و ۳ ست لباس پیشنهادی دریافت کنید</string>
+    <string name="hint_occasion">مراسم (مثل: عروسی، جلسه کاری)</string>
+    <string name="action_suggest">✨ پیشنهاد لباس</string>
+    <string name="ai_no_key">برای استفاده از پیشنهاد هوشمند، کلید API OpenRouter را\nدر قسمت تنظیمات وارد کنید.</string>
+
+    <!-- Settings -->
+    <string name="title_settings">تنظیمات</string>
+    <string name="label_ai_key">کلید API OpenRouter</string>
+    <string name="hint_api_key">کلید API خود را اینجا بچسبانید</string>
+    <string name="action_save_key">ذخیره کلید</string>
+    <string name="label_backup">پشتیبان‌گیری و بازیابی</string>
+    <string name="action_backup">⬆️ ساخت پشتیبان</string>
+    <string name="action_restore">⬇️ بازیابی پشتیبان</string>
+    <string name="action_change_language">🌐 تغییر زبان</string>
+    <string name="action_github">⌨️ مشاهده در گیت‌هاب</string>
+    <string name="action_about">ℹ️ درباره برنامه</string>
+</resources>

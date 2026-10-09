@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette - deep indigo + warm off-white -->
+    <color name="accent_primary">#6366F1</color>
+    <color name="accent_secondary">#818CF8</color>
+    <color name="accent_surface">#EEF2FF</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_primary">#F1F0F5</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="bg_image_placeholder">#E8E7EE</color>
+
+    <!-- Text -->
+    <color name="text_primary">#18181B</color>
+    <color name="text_secondary">#71717A</color>
+    <color name="text_tertiary">#A1A1AA</color>
+
+    <!-- UI elements -->
+    <color name="divider">#F4F4F5</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Material theme required -->
+    <color name="colorPrimary">#6366F1</color>
+    <color name="colorPrimaryVariant">#4F46E5</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#818CF8</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorBackground">#F1F0F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#18181B</color>
+    <color name="colorError">#EF4444</color>
+</resources>

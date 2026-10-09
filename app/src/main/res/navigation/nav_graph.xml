@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/storageFragment">
+
+    <fragment
+        android:id="@+id/storageFragment"
+        android:name="com.pourya.wardrobe.ui.storage.StorageFragment"
+        android:label="@string/nav_home">
+        <action
+            android:id="@+id/action_storageFragment_to_itemFragment"
+            app:destination="@id/itemFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/itemFragment"
+        android:name="com.pourya.wardrobe.ui.item.ItemFragment"
+        android:label="Items">
+        <argument
+            android:name="storageId"
+            app:argType="long"/>
+        <action
+            android:id="@+id/action_itemFragment_to_itemDetailFragment"
+            app:destination="@id/itemDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.pourya.wardrobe.ui.item.ItemDetailFragment"
+        android:label="Detail">
+        <argument
+            android:name="itemId"
+            app:argType="long"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.pourya.wardrobe.ui.search.SearchFragment"
+        android:label="@string/nav_search"/>
+
+    <fragment
+        android:id="@+id/aiFragment"
+        android:name="com.pourya.wardrobe.ui.ai.AIFragment"
+        android:label="@string/nav_ai"/>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.pourya.wardrobe.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"/>
+
+</navigation>

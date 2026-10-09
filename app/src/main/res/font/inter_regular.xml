@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Place the Inter font files (inter_regular.ttf, inter_semibold.ttf, inter_bold.ttf)
+    downloaded from https://fonts.google.com/specimen/Inter  in this /font/ folder.
+
+    If you don't have the files, the app falls back to the system default sans-serif font.
+    Replace this placeholder file with the actual .ttf file.
+-->
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/inter_regular"/>
+</font-family>

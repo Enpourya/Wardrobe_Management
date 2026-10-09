@@ -1,0 +1,9 @@
+-keep class com.pourya.wardrobe.data.model.** { *; }
+-keep class com.pourya.wardrobe.data.db.** { *; }
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-keep class com.google.gson.** { *; }
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
